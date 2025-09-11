@@ -79,19 +79,14 @@ The system is trained on MRI image datasets and deployed as a **web application*
    pip install -r requirements.txt
    ```
 
-3. Train the model (optional, pre-trained model already included)
 
-   ```bash
-   python train.py
-   ```
-
-4. Run the web app
+3. Run the web app
 
    ```bash
    streamlit run app.py
    ```
 
-5. Upload an MRI scan and get prediction 
+4. Upload an MRI scan and get prediction 
 
 ---
 
