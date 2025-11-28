@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, send_from_directory
 from tensorflow.keras.models import load_model
-from keras.src.saving import legacy_sm_saving
 from keras.preprocessing.image import load_img, img_to_array
 import numpy as np
 import os
@@ -22,7 +21,7 @@ if not os.path.exists(model_path):
     gdown.download(url, model_path, quiet=False)
 
 # Load the model
-model = legacy_sm_saving.load_model(model_path, compile=False)
+model = load_model(model_path)
 
 # Class labels
 class_labels = ['notumor','meningioma','glioma', 'pituitary']
