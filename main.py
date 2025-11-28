@@ -21,7 +21,7 @@ if not os.path.exists(model_path):
     gdown.download(url, model_path, quiet=False)
 
 # Load the model
-model = load_model(model_path)
+model = legacy_sm_saving.load_model(model_path, compile=False)
 
 # Class labels
 class_labels = ['notumor','meningioma','glioma', 'pituitary']
