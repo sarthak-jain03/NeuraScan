@@ -70,7 +70,7 @@ The system is trained on MRI image datasets and deployed as a **web application*
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/sarthak-jain03/Tumor_detection_System.git
+   git clone https://github.com/sarthak-jain03/NeuraScan.git
    ```
 
 2. Install dependencies
