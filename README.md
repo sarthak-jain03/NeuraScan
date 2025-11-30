@@ -1,4 +1,4 @@
-# Tumor Detection System
+# NeuraScan - Tumor Detector
 # Project Link: https://tumor-detector-system.onrender.com/
 
 ##  Overview
